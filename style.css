@@ -555,6 +555,54 @@ p:last-child {
   margin: 0;
 }
 
+/* ========================================
+   ABOUT SECTION
+   ======================================== */
+
+.about-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 48px 40px;
+  box-shadow: var(--shadow-sm);
+}
+
+.about-card h2 {
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+/* Author photo — circular, centered */
+.about-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 24px rgba(201, 35, 45, 0.18);
+  border: 3px solid var(--white);
+  display: block;
+}
+
+/* 1,000+ learners badge */
+.about-credential {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--red);
+  margin-bottom: 1.25rem;
+  padding: 10px 16px;
+  background: var(--red-tint);
+  border-left: 3px solid var(--red);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  display: inline-block;
+}
+
 /* FAQ */
 .faq-list {
   margin-top: 2rem;
